@@ -1,0 +1,4 @@
+install nodejs
+git bash
+    npm install -g @angular/cli -- instaluje 
+    ng new  -- tworzeni nowego projektu 

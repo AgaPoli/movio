@@ -1,0 +1,7 @@
+
+
+Main
+    homepage
+        advance search
+        details view
+            episod component
