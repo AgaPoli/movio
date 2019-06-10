@@ -1,1 +1,8 @@
 <mat-toolbar color="secondary">Movio</mat-toolbar>
+
+
+<ul>
+
+    <li *ngFor="let movie of movieList" > {{ movie.title }} - {{movie.release_date}} </li>
+
+</ul>
