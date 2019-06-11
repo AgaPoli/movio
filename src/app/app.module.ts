@@ -43,6 +43,12 @@ import {
   MatTooltipModule,
   MatTreeModule,
 } from '@angular/material';
+import { DetailsInfosComponent } from './details-infos/details-infos.component';
+import { DetailsPhotoComponent } from './details-photo/details-photo.component';
+import { DetailsSlideComponent } from './details-slide/details-slide.component';
+import { FilterWrapComponent } from './filter-wrap/filter-wrap.component';
+import { FooterComponent } from './footer/footer.component';
+import { MainContentComponent } from './main-content/main-content.component';
 
 @NgModule({
   exports:[ MatAutocompleteModule,
@@ -83,7 +89,13 @@ import {
     MatToolbarModule],
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    DetailsInfosComponent,
+    DetailsPhotoComponent,
+    DetailsSlideComponent,
+    FilterWrapComponent,
+    FooterComponent,
+    MainContentComponent
   ],
   imports: [
     BrowserModule,
